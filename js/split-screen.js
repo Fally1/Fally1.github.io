@@ -13,7 +13,7 @@
   // Undgå at bolden kører næsten vandret eller lodret i al evighed.
   const MIN_AXIS = 0.25;
   // Lille fast tidsskridt, så bolden ikke springer hen over felter.
-  const STEP = 1 / 100;
+  const STEP = 1 / 240;
 
   const canvas = document.getElementById("split-screen");
   const ctx = canvas.getContext("2d");
