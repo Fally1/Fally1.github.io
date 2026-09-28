@@ -1,10 +1,33 @@
 <!DOCTYPE html>
-  <html>
-    <head>
-      <title> Test </title>
-    </head>
-    <body>
-      <p id="demo"></p>
-    </body>
+<html lang="da">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Fally1 – Projekter</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header class="hero">
+      <canvas id="split-screen" aria-label="Sort og hvid bold der kæmper om pladsen"></canvas>
+      <p class="score" id="score" aria-live="off"></p>
+    </header>
+
+    <main class="projects">
+      <h1>Mine projekter</h1>
+      <p class="intro">Små ting jeg har bygget for sjov og for at lære.</p>
+
+      <ul class="project-list">
+        <li class="project">
+          <h2>Split screen</h2>
+          <p>
+            To bolde kæmper om pladsen. Når en bold rammer den andens
+            farve, skifter feltet farve, og bolden får en ny retning.
+          </p>
+          <a href="#split-screen">Se den øverst på siden</a>
+        </li>
+      </ul>
+    </main>
+
+    <script src="js/split-screen.js"></script>
+  </body>
 </html>
-  
