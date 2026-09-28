@@ -5,7 +5,7 @@
 (function () {
   const BLACK = 0;
   const WHITE = 1;
-  const COLORS = ["#0066ff", "#ff8c00"];
+  const COLORS = ["#111", "#fff"];
 
   // Bolden får en ny retning ved hvert sammenstød: den spejles, og så
   // drejes den tilfældigt op til +/- MAX_TURN radianer.
