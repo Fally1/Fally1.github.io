@@ -5,11 +5,12 @@
 (function () {
   const BLACK = 0;
   const WHITE = 1;
+  //Forandre farven
   const COLORS = ["#111", "#fff"];
 
   // Bolden får en ny retning ved hvert sammenstød: den spejles, og så
-  // drejes den tilfældigt op til +/- MAX_TURN radianer.
-  const MAX_TURN = 0.35;
+  // drejes den tilfældigt op til +/- MAX_TURN radianer. 3
+  const MAX_TURN = 0.95;
   // Undgå at bolden kører næsten vandret eller lodret i al evighed.
   const MIN_AXIS = 0.25;
   // Lille fast tidsskridt, så bolden ikke springer hen over felter.
