@@ -4,7 +4,7 @@
 
 body {
   margin: 0;
-  background: #f51111;
+  background: #fff;
   color: #111;
   font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
   line-height: 1.5;
@@ -12,8 +12,8 @@ body {
 
 .hero {
   position: relative;
-  height: 1000vh;
-  height: 1000svh;
+  height: 100vh;
+  height: 100svh;
 }
 
 #split-screen {
