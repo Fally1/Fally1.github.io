@@ -39,10 +39,10 @@
       grid.push(new Array(rows).fill(c < cols / 2 ? BLACK : WHITE));
     }
 
-    const speed = cell * 14;
+    const speed = cell * 20;
     balls = [
       // Den hvide bold kører på det sorte område.
-      makeBall(WHITE, width / 4, height / 4, speed, Math.PI / 4),
+      makeBall(WHITE, width / 4, height / 2, speed, Math.PI / 4),
       // Den sorte bold kører på det hvide område.
       makeBall(BLACK, (width * 3) / 4, height / 2, speed, (Math.PI * 5) / 4),
     ];
